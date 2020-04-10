@@ -80,7 +80,7 @@ the following case-insensitive options:
             <code>
                spark.read.format("jdbc")<br>
                  .option("url", jdbcUrl)<br>
-                 .option("query", "select c1, c2 from t1")<br>
+                 .option("dbtable", "select c1, c2 from t1")<br>
                  .load()
             </code></li>
       </ol>
